@@ -7,24 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Danishan</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleO.css">
 </head>
 
 <body>
 
     <section class="home">
+        <!--Toggle Button for smaller Screen ----------------------------------- -->
+        <input type="checkbox" name="checkox1" id="click">
+        <label for="click">
+            <?xml version="1.0" ?><svg class="bar" fill="none" height="24" stroke="currentColor" stroke-linecap="round"
+                stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24"
+                xmlns="http://www.w3.org/2000/svg">
+                <line x1="3" x2="21" y1="12" y2="12" />
+                <line x1="3" x2="21" y1="6" y2="6" />
+                <line x1="3" x2="21" y1="18" y2="18" />
+            </svg>
+        </label>
+
+        <!--Navigation -------------------------------------------------- -->
         <nav class="home__nav nav">
-            <div><img class="img-icon" src="./src/danishan.png" alt="img">
-                <p>Danishan</p>
+
+            <div class="d1">
+                <div class="d2">
+                    <img class="img-icon" src="./src/danishan.png" alt="img">
+                    <p>Danishan</p>
+                </div>
+
             </div>
 
-            <!-- <svg class = "bar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <path
-                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-            </svg>
- -->
-
-
-            <div>
+            <div class="d4">
                 <ul>
                     <li class="cur-page">Home</li>
                     <a href="./html/explore.html#about">
@@ -48,12 +60,16 @@
                 </ul>
             </div>
         </nav>
+
+        <!--Home Body ---------------------------------------- -->
+
         <div class="home__body">
             <img class="img" src="./src/danishan.png" alt="#">
             <div>
                 <p>Danishan</p>
-                <p>Computer Science Student @ Amity University, Uttar Pradesh </p>
                 <p>Bachelor of technology (B-tech CSE 2020-204)</p>
+                <p>Computer Science Student</p>
+                <p> @ Amity University, Uttar Pradesh </p>
             </div>
             <a href="./html/explore.html">
                 <div class="btn">Explore</div>

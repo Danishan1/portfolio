@@ -22,6 +22,7 @@
   --col-black: #000;
   --col-white: #fff;
   --col-btn: #50b8e7;
+  --col-btn-a: #50b7e7cc;
   --col-btn-h: #6dc3eb;
 }
 
@@ -36,7 +37,7 @@ body {
   font-size: var(--size2L);
   background-color: var(--col-light);
   min-height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* Nav Bar ----------------------------------------- */

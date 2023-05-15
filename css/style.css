@@ -5,6 +5,17 @@
   width: 100vw;
 }
 
+.nav a {
+  color: black;
+}
+
+#click {
+  display: none;
+}
+
+.bar {
+  display: none !important;
+}
 
 .home__body {
   display: flex;
@@ -14,6 +25,8 @@
   /* backd */
 }
 
+
+
 .home__body .img {
   margin-top: 120px;
   height: 250px;
@@ -21,6 +34,10 @@
   border: 4px solid var(--col-btn);
 }
 
+/* .home__body span {
+  display: inline !important;
+} */
+/* Select all 2nd Child */
 .home__body *:nth-child(2) {
   display: flex;
   flex-direction: column;
@@ -28,6 +45,7 @@
   align-items: center;
 }
 
+/* Select 1st child of 2nd Child */
 .home__body *:nth-child(2) *:first-child {
   font-size: 7rem;
   color: var(--col-btn);
@@ -35,12 +53,14 @@
   font-weight: 700;
 }
 
+/* Select 2nd child of 2nd Child */
 .home__body *:nth-child(2) *:nth-child(2) {
   letter-spacing: 0.1em;
   line-height: 2em;
   font-weight: 500;
 }
 
+/* Select 3rd child of 2nd Child */
 .home__body *:nth-child(2) *:nth-child(3) {
   letter-spacing: 0.05em;
   font-size: 0.9em;
