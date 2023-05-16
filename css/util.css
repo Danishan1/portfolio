@@ -19,8 +19,11 @@ a : link
 */
 
 :root {
+  --sizex: 0.8rem;
+  --size2x: 0.8rem;
   --size3x: 0.7rem;
   --size: 1rem;
+  --size1L: 1.1rem;
   --size2L: 1.2rem;
   --size3L: 1.3rem;
   --size5L: 1.5rem;
@@ -249,7 +252,7 @@ a:hover .cur-page {
   .bar {
     display: flex !important;
     position: fixed;
-    background-color: var(--col-light);
+    /* background-color: var(--col-light); */
     right: 30px;
     top: 20px;
     z-index: 1000;
