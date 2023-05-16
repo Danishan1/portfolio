@@ -41,7 +41,6 @@
 
 /* Projetcs */
 
-/* .proj-d1 */
 
 .proj-d2 {
   display: flex;
@@ -73,8 +72,6 @@
   justify-content: center;
 }
 
-.card-2:hover {
-}
 
 @media (max-width: 900px) {
   .proj-d2 {

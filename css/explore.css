@@ -115,7 +115,6 @@
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 .status__sem .card {
-  /* border: 2px solid va */
   padding: 15px 10px;
   width: 95%;
   height: 50px;

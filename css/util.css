@@ -312,11 +312,7 @@ a:hover .cur-page {
   #click {
     visibility: hidden;
   }
-  /* .nav .d1 p {
-    background-color: var(--col-light);
-    backdrop-filter: blur(10px);
-  } */
-
+ 
   .cur-page,
   #click:checked ~ .nav .d1 p {
     color: var(--col-white);
