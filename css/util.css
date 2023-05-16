@@ -12,7 +12,7 @@ a : link
 .cardflip : make a card that flip in 3D on Y axis on hover
 .card-sqr2slide : make a card that silde on hover
 .card : simple card with border
-
+.line  : Use to give a line
 
 
 
@@ -52,6 +52,7 @@ a : link
   --col-whatsapp: #128c7e;
   --col-pdf: #a90e06;
   --col-mail: #da0707;
+  --col-youtube: #f40b03;
 }
 
 * {
@@ -150,6 +151,8 @@ a:hover .cur-page {
   width: 95%;
   margin: 5px auto;
   padding: 0;
+  padding-top: 50px;
+
   /* border: 2px solid red; */
   position: relative;
   display: grid;
@@ -235,6 +238,10 @@ a:hover .cur-page {
   border: 1px solid var(--col-btn);
   border-radius: 1.2rem;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .card-sqr2slide:hover {
@@ -244,6 +251,14 @@ a:hover .cur-page {
   background-color: var(--col-light300);
   border: 1px solid var(--col-btn);
   border-radius: 1.2rem;
+}
+
+.line{
+  display: block;
+  margin: 20px 0;
+  height: 2px;
+  width: 100%;
+  background-color: var(--col-dark200);
 }
 
 /* Mobile Version   -------------------------------------- */
