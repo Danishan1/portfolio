@@ -41,10 +41,9 @@
 
 /* Projetcs */
 
-
 .proj-d2 {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
 }
 .proj-d2 .proj-name {
   font-size: var(--size8L);
@@ -57,30 +56,32 @@
   margin-bottom: 10px;
 }
 
+.proj-d3 {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -85px;
+}
+
 .proj-btn .btn {
   height: 40px;
   width: 180px;
   margin: 0 10px;
 }
 .proj-btn.b1 .btn {
-    background-color: var(--col-youtube);
-
+  background-color: var(--col-youtube);
 }
-
-.proj-d3 {
-  display: flex;
-  justify-content: center;
-}
-
 
 @media (max-width: 900px) {
   .proj-d2 {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+   
   }
   .proj-d3 {
     justify-content: space-between;
+    top: 5px;
   }
 }
 @media (max-width: 630px) {
