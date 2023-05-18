@@ -36,15 +36,11 @@
 .footer {
   display: flex;
   justify-content: center;
-  padding-bottom: 40px;
+  padding-bottom: 15px;
 }
 
 /* Projetcs */
 
-.proj-d2 {
-  /* display: flex; */
-  /* justify-content: space-between; */
-}
 .proj-d2 .proj-name {
   font-size: var(--size8L);
   letter-spacing: 1px;
@@ -77,7 +73,6 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
-   
   }
   .proj-d3 {
     justify-content: space-between;
@@ -85,6 +80,22 @@
   }
 }
 @media (max-width: 630px) {
+  
+  .proj-btn .btn {
+    font-size: var(--size3L);
+  }
+
+  .proj-d1 {
+    font-size: var(--size);
+  }
+
+  .proj-d2 .proj-name {
+    font-size: var(--size6L);
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
   .proj-d3 {
     flex-direction: column;
     justify-content: stretch;
@@ -93,6 +104,12 @@
   .proj-d3 .btn {
     margin: 10px;
   }
+
+  
+.contact-1 {
+  font-size: var(--size);
+}
+
 }
 @media (max-width: 680px) and (min-width: 490px) {
   .topic-name {
