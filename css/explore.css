@@ -119,6 +119,7 @@
   width: 95%;
   height: 50px;
   display: flex;
+  flex-direction: row;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
@@ -129,6 +130,7 @@
   padding-left: 10px;
   letter-spacing: 1px;
   font-weight: 600;
+
 }
 
 /* Smaller Device For About Section */

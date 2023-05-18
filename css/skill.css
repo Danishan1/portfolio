@@ -105,10 +105,10 @@
     margin: 10px;
   }
 
-  
-.contact-1 {
-  font-size: var(--size);
-}
+
+  .contact-1 {
+    font-size: var(--size);
+  }
 
 }
 @media (max-width: 680px) and (min-width: 490px) {
