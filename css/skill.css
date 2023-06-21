@@ -55,8 +55,8 @@
 .proj-d3 {
   display: flex;
   justify-content: flex-end;
-  position: relative;
-  top: -85px;
+  /* position: relative; */
+  /* top: -85px; */
 }
 
 .proj-btn .btn {
@@ -75,7 +75,7 @@
     margin-bottom: 15px;
   }
   .proj-d3 {
-    justify-content: space-between;
+    justify-content: space-evenly;
     top: 5px;
   }
 }
@@ -98,7 +98,6 @@
 
   .proj-d3 {
     flex-direction: column;
-    justify-content: stretch;
     align-items: center;
   }
   .proj-d3 .btn {
@@ -112,6 +111,7 @@
 
 }
 @media (max-width: 680px) and (min-width: 490px) {
+  
   .topic-name {
     font-size: var(--size2xL);
   }
