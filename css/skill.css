@@ -36,7 +36,17 @@
 .footer {
   display: flex;
   justify-content: center;
-  padding-bottom: 15px;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.footer .links {
+  margin-top: 20px;
+  display: flex;
+}
+.footer .links a {
+  margin-left: 30px;
 }
 
 /* Projetcs */
@@ -80,7 +90,6 @@
   }
 }
 @media (max-width: 630px) {
-  
   .proj-btn .btn {
     font-size: var(--size3L);
   }
@@ -104,14 +113,11 @@
     margin: 10px;
   }
 
-
   .contact-1 {
     font-size: var(--size);
   }
-
 }
 @media (max-width: 680px) and (min-width: 490px) {
-  
   .topic-name {
     font-size: var(--size2xL);
   }
