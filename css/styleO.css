@@ -1,5 +1,15 @@
 @import "./util.css";
 
+@media (max-width: 1300px) {
+  .home__lside {
+    display: none;
+    /* visibility: hidden; */
+    border: 2px solid red;
+  }
+  .home__body {
+    width: 100%;
+  }
+}
 @media (max-width: 900px) {
   /* Select all 2nd Child */
   .home__body *:nth-child(2) {
