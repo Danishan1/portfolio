@@ -238,7 +238,6 @@
 .projects .box:hover .descr p {
   opacity: 1;
   display: block;
-
 }
 
 .projects .box:hover .project-btn {
@@ -307,8 +306,6 @@
 }
 
 @media (max-width: 900px) {
-  .intro {
-  }
 }
 
 @media (max-width: 680px) {
@@ -342,6 +339,29 @@
     height: 300px;
     width: 300px;
   }
+
+  .projects .sec2col {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  .projects .descr img {
+    max-width: 300px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+@media (max-width: 400px) {
+  .projects .descr img {
+    max-width: 200px;
+  }
+
+  .footer a,
+  .about-icon a {
+    
+    margin: 5px;
+    
+  }
 }
 
 @media (max-width: 300px) {
@@ -361,4 +381,13 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(auto, 200px));
   }
+
+  .projects .descr img {
+    max-width: 200px;
+  }
+
+  .half-Stcky-scroll .right,
+  .projects {
+    padding: 5px;
+}
 }
