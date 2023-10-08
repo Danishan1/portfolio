@@ -4,7 +4,6 @@
   .home__lside {
     display: none;
     /* visibility: hidden; */
-    border: 2px solid red;
   }
   .home__body {
     width: 100%;
@@ -12,58 +11,15 @@
 }
 @media (max-width: 900px) {
   /* Select all 2nd Child */
-  .home__body *:nth-child(2) {
+  .home__body .home_intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
-  /* Select 1st child of 2nd Child */
-  .home__body *:nth-child(2) *:first-child {
-    font-size: 7rem;
-    letter-spacing: 0.23rem;
-    font-weight: 700;
-  }
-
-  /* Select 2nd child of 2nd Child */
-  .home__body *:nth-child(2) *:nth-child(2),
-  .home__body *:nth-child(2) *:nth-child(3) {
-    letter-spacing: 0.1em;
-    line-height: 2em;
-    font-weight: 500;
-  }
-
-  /* Select 3rd child of 2nd Child */
-  .home__body *:nth-child(2) *:nth-child(4) {
-    font-size: 0.9em;
-    font-weight: 400;
-  }
 }
 
 @media (max-width: 680px) {
-  /* Select 1st child of 2nd Child */
-  .home__body *:nth-child(2) *:first-child {
-    margin-top: 10px;
-    font-size: 4rem;
-    letter-spacing: 0.23rem;
-    font-weight: 700;
-  }
-
-  /* Select 2nd child of 2nd Child */
-  .home__body *:nth-child(2) *:nth-child(2),
-  .home__body *:nth-child(2) *:nth-child(2) {
-    letter-spacing: 0.03em;
-    font-size: 0.8em;
-    line-height: 2em;
-    font-weight: 600;
-  }
-
-  /* Select 3rd child of 2nd Child */
-  .home__body *:nth-child(2) *:nth-child(4) {
-    font-size: 0.7em;
-    font-weight: 500;
-  }
 }
 
 @media (max-width: 490px) {
@@ -73,26 +29,28 @@
     width: 200px;
     border: 4px solid var(--col-btn);
   }
+}
 
-  .home__body *:nth-child(2) *:first-child {
-    margin-top: 10px;
-    font-size: 2.5rem;
-    letter-spacing: 0.23rem;
-    font-weight: 700;
+@media (max-width: 430px) {
+  .home__body .break {
+    display: block;
   }
 
-  /* Select 2nd child of 2nd Child */
-  .home__body *:nth-child(2) *:nth-child(2),
-  .home__body *:nth-child(2) *:nth-child(3) {
-    /* letter-spacing: 0.03em; */
-    font-size: 0.8em;
-    line-height: 2em;
-    font-weight: 600;
+  .home__body p:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 330px) {
+  .home__body p:nth-child(3) {
+    font-size: 1.25rem;
+
+  }
+  .home__body p:nth-child(4) {
+    font-size: 1.05rem;
+
   }
 
-  /* Select 3rd child of 2nd Child */
-  .home__body *:nth-child(2) *:nth-child(4) {
-    font-size: 0.65em;
-    font-weight: 500;
-  }
 }

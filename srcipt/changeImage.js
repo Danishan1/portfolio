@@ -20,4 +20,4 @@ function changeImage() {
   imageElement.src = newImagePath;
 }
 
-setInterval(changeImage, 5000); // Change image every 10 seconds
+setInterval(changeImage, 2000); // Change image every 10 seconds

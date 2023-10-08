@@ -152,11 +152,18 @@
   justify-content: center;
 }
 
+
+#skills{
+  padding-top: 70px;
+
+}
+
 /* Projects ********************************************************************************** */
+
 
 .projects {
   margin-top: 100px;
-  padding-top: 100px;
+  /* padding-top: 50px; */
   padding: 30px;
 }
 
@@ -172,6 +179,7 @@
   gap: 10px;
   padding: 10px;
 }
+
 
 .projects .box {
   border: 1px solid var(--col-dark200);
@@ -207,6 +215,10 @@
   text-align: justify;
   opacity: 0;
   display: none;
+}
+
+.projects .descr .date {
+  text-align: right;
 }
 
 .projects .project-btn {
@@ -306,11 +318,13 @@
 }
 
 @media (max-width: 900px) {
+  .intro {
+    padding: 20px;
+    padding-top: 200px;
+  }
 }
 
 @media (max-width: 680px) {
-  .intro {
-  }
   .about-d1 .about-icon {
     display: flex;
     margin: 0;
@@ -328,13 +342,6 @@
 }
 
 @media (max-width: 490px) {
-  .intro {
-  }
-
-  .intro {
-    padding: 20px;
-  }
-
   .about-img {
     height: 300px;
     width: 300px;
@@ -348,7 +355,7 @@
     max-width: 300px;
     border-radius: 10px;
     transition: 0.5s ease-in-out;
-  }
+  } 
 }
 
 @media (max-width: 400px) {
@@ -358,20 +365,11 @@
 
   .footer a,
   .about-icon a {
-    
     margin: 5px;
-    
   }
 }
 
-@media (max-width: 300px) {
-  .intro {
-  }
-
-  .intro {
-    padding: 20px;
-  }
-
+@media (max-width: 330px) {
   .about-img {
     height: 200px;
     width: 200px;
@@ -389,5 +387,5 @@
   .half-Stcky-scroll .right,
   .projects {
     padding: 5px;
-}
+  }
 }
