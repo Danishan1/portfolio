@@ -43,6 +43,7 @@ a : link
   --col-dark300: #777777;
   --col-dark200: #999999;
   --col-light: #f9fcfc;
+  --col-light-trans: #f9fcfcc0;
   --col-light300: #f1fefe;
   --col-light500: #7ba28b;
   --col-light400: #d9ece1;
@@ -456,7 +457,7 @@ a:hover .cur-page {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: transparent;
+    background-color: var(--col-light-trans);
     border: none;
   }
 
