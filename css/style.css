@@ -160,6 +160,7 @@
 
 .home__body a {
   margin-top: 50px;
+  border-radius: 10px;
 }
 
 .home__body .break{
