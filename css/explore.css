@@ -34,6 +34,15 @@
   text-align: end;
 }
 
+.intro .list li {
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.intro .list p {
+  margin-bottom: 10px;
+}
+
 /* about-sec-1 About-d1  ********************************************************/
 
 .about-intro {
@@ -152,19 +161,15 @@
   justify-content: center;
 }
 
-.info-card .hd3{
+.info-card .hd3 {
   margin-bottom: 5px;
-  
 }
 
-
-#skills{
+#skills {
   padding-top: 70px;
-
 }
 
 /* Projects ********************************************************************************** */
-
 
 .projects {
   margin-top: 100px;
@@ -184,7 +189,6 @@
   gap: 10px;
   padding: 10px;
 }
-
 
 .projects .box {
   border: 1px solid var(--col-dark200);
@@ -360,7 +364,7 @@
     max-width: 300px;
     border-radius: 10px;
     transition: 0.5s ease-in-out;
-  } 
+  }
 }
 
 @media (max-width: 400px) {
